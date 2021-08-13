@@ -103,6 +103,7 @@ return [
     'FE' => [
         'debug' => false,
         'loginSecurityLevel' => 'normal',
+        'pageNotFoundOnCHashError' => false,
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
             'options' => [],
