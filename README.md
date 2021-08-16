@@ -6,3 +6,9 @@
 2. ddev start
 3. ddev composer install
 4. ddev launch
+
+## TYPO3-Backend
+
+Login: https://sdvtypo3ddbzeitungsportaldev.slub-dresden.de/typo3
+Username: admin
+Password: adminslub
