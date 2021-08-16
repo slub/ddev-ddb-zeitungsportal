@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "889ac5ed6db66f628cc630551b7cf086",
+    "content-hash": "71abd40645345c6da40551db017912dc",
     "packages": [
         {
             "name": "caseyamcl/phpoaipmh",
@@ -1821,15 +1821,16 @@
         {
             "name": "slub/ddb-kitodo-zeitungsportal",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "/var/www/extensions/ddb_kitodo_zeitungsportal",
-                "reference": "efc3b4f7f847c6853e01cbb3d4f04931ee101e0c"
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slub/ddb_kitodo_zeitungsportal.git",
+                "reference": "dec4fe268b71a1294886f99bae156b943577d85d"
             },
             "require": {
                 "kitodo/presentation": "^3.3|dev-master|dev-ddb-changes",
                 "typo3/cms-core": "~9.5.29"
             },
+            "default-branch": true,
             "type": "typo3-cms-extension",
             "extra": {
                 "typo3/cms": {
@@ -1863,9 +1864,7 @@
                 "ddb",
                 "extension"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "time": "2021-08-13T21:50:05+00:00"
         },
         {
             "name": "solarium/solarium",

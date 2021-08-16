@@ -1,8 +1,8 @@
 {
     "repositories": {
         "ddb-kitodo-zeitungsportal": {
-            "type": "path",
-            "url": "/var/www/extensions/ddb_kitodo_zeitungsportal"
+            "type": "git",
+            "url": "https://github.com/slub/ddb_kitodo_zeitungsportal.git"
         },
         "dlf": {
             "type": "git",
