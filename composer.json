@@ -53,6 +53,8 @@
         ],
         "post-autoload-dump": [
             "@typo3-cms-scripts"
-        ]
+        ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
     }
 }
