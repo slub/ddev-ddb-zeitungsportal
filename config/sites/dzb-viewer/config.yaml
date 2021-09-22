@@ -5,7 +5,6 @@ languages:
   -
     title: Deutsch
     enabled: true
-    languageId: '0'
     base: /
     typo3Language: de
     locale: de_DE.UTF-8
@@ -14,8 +13,9 @@ languages:
     hreflang: de-DE
     direction: ltr
     flag: de
+    languageId: '0'
   -
-    title: Englisch
+    title: English
     enabled: true
     base: /en/
     typo3Language: default
@@ -26,7 +26,7 @@ languages:
     direction: ltr
     fallbackType: fallback
     fallbacks: '0'
-    flag: gb
+    flag: us
     languageId: '1'
 rootPageId: 1
 routes: {  }
