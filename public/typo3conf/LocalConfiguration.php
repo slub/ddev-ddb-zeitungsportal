@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$Z3RTVEhTNkVvQ01xSmpyMA$Ys/AqjzxyYJxAZs7n5tZVBh6KyOI6txISt6qHlNRll0',
         'loginSecurityLevel' => 'normal',
@@ -101,7 +101,7 @@ return [
         ],
     ],
     'FE' => [
-        'debug' => false,
+        'debug' => true,
         'loginSecurityLevel' => 'normal',
         'pageNotFoundOnCHashError' => false,
         'passwordHashing' => [
@@ -142,10 +142,10 @@ return [
         'transport_smtp_username' => '',
     ],
     'SYS' => [
-        'devIPmask' => '',
-        'displayErrors' => 0,
+        'devIPmask' => '*',
+        'displayErrors' => 1,
         'encryptionKey' => '9671ac88ad73f4c44921fa835a35169923e6fc80721a4445ac63c8bd58ce1d7d09276507688996a2f9c63a96ffba24f6',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 12290,
         'features' => [
             'newTranslationServer' => true,
             'unifiedPageTranslationHandling' => true,
