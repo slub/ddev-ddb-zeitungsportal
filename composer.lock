@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71abd40645345c6da40551db017912dc",
+    "content-hash": "a915a360a9415c46c3fbb9bf70a52d69",
     "packages": [
         {
             "name": "caseyamcl/phpoaipmh",
@@ -1168,11 +1168,17 @@
         },
         {
             "name": "kitodo/presentation",
-            "version": "dev-ddb-changes",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/beatrycze-volk/kitodo-presentation.git",
-                "reference": "6ec508a57fd01db7e95ebc2e05b9037e76f58d40"
+                "url": "https://github.com/kitodo/kitodo-presentation.git",
+                "reference": "4a20621afc30778ba3b045be5110353cf4fd4fd4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kitodo/kitodo-presentation/zipball/4a20621afc30778ba3b045be5110353cf4fd4fd4",
+                "reference": "4a20621afc30778ba3b045be5110353cf4fd4fd4",
+                "shasum": ""
             },
             "require": {
                 "caseyamcl/phpoaipmh": "^3.0",
@@ -1202,6 +1208,7 @@
                     "Kitodo\\Dlf\\": "Classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -1222,11 +1229,11 @@
             "description": "Base plugins, modules, services and API of the Digital Library Framework. It is part of the community-based Kitodo Digitization Suite.",
             "homepage": "https://www.kitodo.org",
             "support": {
+                "docs": "https://docs.typo3.org/p/kitodo/presentation/master/en-us/",
                 "issues": "https://github.com/kitodo/kitodo-presentation/issues",
-                "source": "https://github.com/kitodo/kitodo-presentation",
-                "docs": "https://docs.typo3.org/p/kitodo/presentation/master/en-us/"
+                "source": "https://github.com/kitodo/kitodo-presentation"
             },
-            "time": "2021-03-15T16:13:19+00:00"
+            "time": "2022-02-15T09:47:15+00:00"
         },
         {
             "name": "masterminds/html5",
