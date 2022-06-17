@@ -102,6 +102,11 @@ return [
         ],
     ],
     'FE' => [
+        'cacheHash' => [
+            'requireCacheHashPresenceParameters' => [
+                'tx_dlf[id]',
+            ],
+        ],
         'debug' => true,
         'loginSecurityLevel' => 'normal',
         'pageNotFoundOnCHashError' => false,
