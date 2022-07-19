@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+## Description: Import dump into running database
+## Usage: db:import [db.sql]
+
+source ".ddev/commands/util.sh"
+
+DBFILE=$(db_file $1)
+
+ddev import-db --src="$DBFILE"
