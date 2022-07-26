@@ -4,10 +4,6 @@
             "type": "git",
             "url": "https://github.com/slub/ddb_kitodo_zeitungsportal.git"
         },
-        "dlf": {
-            "type": "git",
-            "url": "https://github.com/beatrycze-volk/kitodo-presentation.git"
-        },
         "0": {
             "type": "composer",
             "url": "https://composer.typo3.org/"
@@ -43,7 +39,7 @@
         "typo3/cms-tstemplate": "^9.5",
         "typo3/cms-viewpage": "^9.5",
         "typo3/cms-lowlevel": "^9.5",
-        "kitodo/presentation": "dev-ddb-changes",
+        "kitodo/presentation": "^3.3|dev-master",
         "slub/ddb-kitodo-zeitungsportal": "dev-main"
     },
     "scripts": {

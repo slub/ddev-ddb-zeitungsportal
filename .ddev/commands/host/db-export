@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+## Description: Export running database to .sql dump
+## Usage: db:export [db.sql]
+
+source ".ddev/commands/util.sh"
+
+DBFILE=$(db_file $1)
+
+# The `head` command is to remove timestamp
+ddev export-db --gzip=false | head --lines=-2 > "$DBFILE"
+
+echo
+echo -e "\033[0;33mBefore committing, please check that the dump is sane.\033[0m"

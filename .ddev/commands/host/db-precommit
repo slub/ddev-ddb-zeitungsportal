@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+## Usage: db:precommit
+
+ddev db:cleanup
+ddev db:export "$1"

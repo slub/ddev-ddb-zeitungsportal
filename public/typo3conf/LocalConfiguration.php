@@ -1,7 +1,7 @@
 <?php
 return [
     'BE' => [
-        'debug' => false,
+        'debug' => true,
         'explicitADmode' => 'explicitAllow',
         'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$Z3RTVEhTNkVvQ01xSmpyMA$Ys/AqjzxyYJxAZs7n5tZVBh6KyOI6txISt6qHlNRll0',
         'loginSecurityLevel' => 'normal',
@@ -21,7 +21,7 @@ return [
     'EXT' => [
         'extConf' => [
             'backend' => 'a:6:{s:14:"backendFavicon";s:0:"";s:11:"backendLogo";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:13:"loginFootnote";s:0:"";s:19:"loginHighlightColor";s:0:"";s:9:"loginLogo";s:0:"";}',
-            'dlf' => 'a:47:{s:9:"useragent";s:19:"Kitodo.Presentation";s:16:"forceAbsoluteUrl";s:1:"1";s:21:"forceAbsoluteUrlHttps";s:1:"1";s:7:"caching";s:1:"0";s:21:"publishNewCollections";s:1:"1";s:13:"unhideOnIndex";s:1:"0";s:13:"fileGrpImages";s:11:"DEFAULT,MAX";s:13:"fileGrpThumbs";s:6:"THUMBS";s:15:"fileGrpDownload";s:8:"DOWNLOAD";s:15:"fileGrpFulltext";s:21:"DDB_FULLTEXT,FULLTEXT";s:12:"fileGrpAudio";s:5:"AUDIO";s:16:"indexAnnotations";s:1:"0";s:18:"iiifThumbnailWidth";s:3:"150";s:19:"iiifThumbnailHeight";s:3:"150";s:9:"solrHttps";s:1:"1";s:8:"solrHost";s:24:"dev-ddb.fiz-karlsruhe.de";s:8:"solrPort";s:3:"443";s:8:"solrPath";s:1:"/";s:8:"solrUser";s:0:"";s:8:"solrPass";s:0:"";s:11:"solrTimeout";s:2:"10";s:19:"solrAllowCoreDelete";s:1:"0";s:11:"solrFieldId";s:2:"id";s:12:"solrFieldUid";s:8:"issue_id";s:12:"solrFieldPid";s:3:"pid";s:13:"solrFieldPage";s:10:"pagenumber";s:15:"solrFieldPartof";s:6:"partof";s:13:"solrFieldRoot";s:4:"root";s:12:"solrFieldSid";s:3:"sid";s:17:"solrFieldToplevel";s:8:"toplevel";s:13:"solrFieldType";s:4:"type";s:14:"solrFieldTitle";s:5:"title";s:15:"solrFieldVolume";s:6:"volume";s:18:"solrFieldThumbnail";s:9:"thumbnail";s:16:"solrFieldDefault";s:7:"default";s:18:"solrFieldTimestamp";s:9:"timestamp";s:21:"solrFieldAutocomplete";s:12:"autocomplete";s:17:"solrFieldFulltext";s:12:"pagefulltext";s:17:"solrFieldRecordId";s:9:"record_id";s:13:"solrFieldPurl";s:4:"purl";s:12:"solrFieldUrn";s:3:"urn";s:17:"solrFieldLocation";s:8:"location";s:19:"solrFieldCollection";s:10:"collection";s:16:"solrFieldLicense";s:7:"license";s:14:"solrFieldTerms";s:5:"terms";s:21:"solrFieldRestrictions";s:12:"restrictions";s:13:"solrFieldGeom";s:4:"geom";}',
+            'dlf' => 'a:48:{s:19:"enableInternalProxy";s:1:"1";s:9:"useragent";s:19:"Kitodo.Presentation";s:16:"forceAbsoluteUrl";s:1:"1";s:21:"forceAbsoluteUrlHttps";s:1:"1";s:7:"caching";s:1:"0";s:21:"publishNewCollections";s:1:"1";s:13:"unhideOnIndex";s:1:"0";s:13:"fileGrpImages";s:11:"DEFAULT,MAX";s:13:"fileGrpThumbs";s:6:"THUMBS";s:15:"fileGrpDownload";s:8:"DOWNLOAD";s:15:"fileGrpFulltext";s:21:"DDB_FULLTEXT,FULLTEXT";s:12:"fileGrpAudio";s:5:"AUDIO";s:16:"indexAnnotations";s:1:"0";s:18:"iiifThumbnailWidth";s:3:"150";s:19:"iiifThumbnailHeight";s:3:"150";s:9:"solrHttps";s:1:"1";s:8:"solrHost";s:24:"dev-ddb.fiz-karlsruhe.de";s:8:"solrPort";s:3:"443";s:8:"solrPath";s:1:"/";s:8:"solrUser";s:0:"";s:8:"solrPass";s:0:"";s:11:"solrTimeout";s:2:"10";s:19:"solrAllowCoreDelete";s:1:"0";s:11:"solrFieldId";s:2:"id";s:12:"solrFieldUid";s:8:"issue_id";s:12:"solrFieldPid";s:3:"pid";s:13:"solrFieldPage";s:10:"pagenumber";s:15:"solrFieldPartof";s:6:"partof";s:13:"solrFieldRoot";s:4:"root";s:12:"solrFieldSid";s:3:"sid";s:17:"solrFieldToplevel";s:8:"toplevel";s:13:"solrFieldType";s:4:"type";s:14:"solrFieldTitle";s:5:"title";s:15:"solrFieldVolume";s:6:"volume";s:18:"solrFieldThumbnail";s:9:"thumbnail";s:16:"solrFieldDefault";s:7:"default";s:18:"solrFieldTimestamp";s:9:"timestamp";s:21:"solrFieldAutocomplete";s:12:"autocomplete";s:17:"solrFieldFulltext";s:12:"pagefulltext";s:17:"solrFieldRecordId";s:9:"record_id";s:13:"solrFieldPurl";s:4:"purl";s:12:"solrFieldUrn";s:3:"urn";s:17:"solrFieldLocation";s:8:"location";s:19:"solrFieldCollection";s:10:"collection";s:16:"solrFieldLicense";s:7:"license";s:14:"solrFieldTerms";s:5:"terms";s:21:"solrFieldRestrictions";s:12:"restrictions";s:13:"solrFieldGeom";s:4:"geom";}',
             'extensionmanager' => 'a:2:{s:21:"automaticInstallation";s:1:"1";s:11:"offlineMode";s:1:"0";}',
             'scheduler' => 'a:2:{s:11:"maxLifetime";s:4:"1440";s:15:"showSampleTasks";s:1:"1";}',
         ],
@@ -44,6 +44,7 @@ return [
         ],
         'dlf' => [
             'caching' => '0',
+            'enableInternalProxy' => '1',
             'fileGrpAudio' => 'AUDIO',
             'fileGrpDownload' => 'DOWNLOAD',
             'fileGrpFulltext' => 'DDB_FULLTEXT,FULLTEXT',
@@ -101,7 +102,12 @@ return [
         ],
     ],
     'FE' => [
-        'debug' => false,
+        'cacheHash' => [
+            'requireCacheHashPresenceParameters' => [
+                'tx_dlf[id]',
+            ],
+        ],
+        'debug' => true,
         'loginSecurityLevel' => 'normal',
         'pageNotFoundOnCHashError' => false,
         'passwordHashing' => [
@@ -142,10 +148,10 @@ return [
         'transport_smtp_username' => '',
     ],
     'SYS' => [
-        'devIPmask' => '',
-        'displayErrors' => 0,
+        'devIPmask' => '*',
+        'displayErrors' => 1,
         'encryptionKey' => '9671ac88ad73f4c44921fa835a35169923e6fc80721a4445ac63c8bd58ce1d7d09276507688996a2f9c63a96ffba24f6',
-        'exceptionalErrors' => 4096,
+        'exceptionalErrors' => 12290,
         'features' => [
             'newTranslationServer' => true,
             'unifiedPageTranslationHandling' => true,
