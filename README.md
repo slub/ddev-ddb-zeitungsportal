@@ -12,3 +12,8 @@
 Login: https://sdvtypo3ddbzeitungsportaldev.slub-dresden.de/typo3
 Username: admin
 Password: adminslub
+
+## Maintainer
+
+typo3@slub-dresden.de
+
